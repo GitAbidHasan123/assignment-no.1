@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
-    
+
 }
 h1{
     text-align: center;
@@ -27,9 +27,69 @@ p{
     background-color: #fc634c;
     color: black;
     border-radius: 5px;
+}
+#one{
     margin-left: 45%;
-    margin-bottom: 20px;
 }
 .botton a{
     text-align: right;
+}
+#two{
+
+}
+
+.donate h1{
+font-weight: 700;
+color: black;
+text-align: center;
+}
+.donate p{
+    color: rgb(31, 29, 29);
+    
+}
+.boxes{
+    display: inline-flex;
+    text-align: center;
+}
+.box1 h1{
+    font-size: 20px;
+    padding: 20px 10px;
+    background-color: rgb(216, 221, 216);
+    color: rgb(82, 76, 76);
+}
+.three{
+    margin-left: 45%;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #fc634c;
+    color: black;
+    border-radius: 5px; 
+}
+.other h6{
+    text-align: center;
+    font-size: 10px;
+    color: rgb(51, 48, 48);
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+
+
+.Support-section{
+    display: flex;
+}
+.half-width{
+    margin-left: 100px;
+    width: 50%;
+}
+.half-width h1{
+    text-align: left;
+    color: black;
+    font-weight: 700;
+}
+.half-width p{
+    text-align: left;
+    color: rgb(34, 31, 31);
+}
+.img-cls{
+    padding: 100px;
 }
