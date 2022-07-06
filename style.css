@@ -15,7 +15,7 @@ body{
     text-align: center;
 }
 .section-1{
-    background: #000 url(images/donation4.jpg);
+    background: rgb(211, 5, 5) url(images/donation4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,12 +41,6 @@ body{
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 15px;
-}
-#one{
-
-}
-#two{
-
 }
 .donate{
     margin-left: 10px;
@@ -203,8 +197,70 @@ margin-top: 40px;
 }
 .section-6{
     padding: 100px 0;
+} 
+
+.update h1{
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+.form{
+    background-color: #e7c8c3;
+    height: 180px;
+    width: 60%;
+    margin-left: 21%;
+    margin-bottom: 90px;
+}
+.update p{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.input{
+    margin-left: 180px;
+    padding-top: 12px;
+}
+.mail{
+    padding: 8px 20px;
+    margin-right: -5px;
+}
+.sub-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #fc634c;
+    border: 0;
+    margin-top: 60px;
+    
+}
+.footer h1{
+    font-size: 30px;
+    color: rgb(221, 20, 20);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer h6{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-weight: 100;
 }
 
+
+
+
+
+
+
+
+
+
+.section-9{
+    background-color: #000;
+}
 
 
 
