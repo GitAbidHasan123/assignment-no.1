@@ -23,6 +23,7 @@ body{
     height: 650px;
     width: 100%;
     position: relative;
+    z-index: 1;
 }
 .color-overlay{
     height: 100%;
@@ -30,6 +31,7 @@ body{
     background: #000;
     opacity: .6;
     position: absolute;
+    z-index: -1;
 }
 .section-1 h1{
     text-align: center;
@@ -63,11 +65,18 @@ margin-top: 40px;
     justify-content: center;
     margin-top: 15px;
 }
+#highlight{
+    background-color: #ffeeee;
+    border: 1px solid #ff4747;
+    border-radius: 5px;
+    
+}
 .box1{
     margin-left: 10px;
+    padding: 20px ;
+    background-color: rgb(216, 221, 216);
+    border-radius: 5px;
 }
-
-
 .botton{
     text-decoration: none;
     padding: 10px 40px;
@@ -77,8 +86,7 @@ margin-top: 40px;
 
 .box1 h1{
     font-size: 20px;
-    padding: 20px 10px;
-    background-color: rgb(216, 221, 216);
+    
     color: rgb(82, 76, 76);
 }
 .other h6{
@@ -137,10 +145,6 @@ margin-top: 40px;
     background-color: #fc634c;
     color: black;
     border-radius: 5px;
-}
-
-.plan{
-
 }
 .plan h1{
     font-size: 30px;
@@ -233,6 +237,9 @@ margin-top: 40px;
     margin-top: 60px;
     
 }
+.section-9{
+    background-color: #000;
+}
 .footer h1{
     font-size: 30px;
     color: rgb(221, 20, 20);
@@ -249,18 +256,6 @@ margin-top: 40px;
     font-weight: 100;
 }
 
-
-
-
-
-
-
-
-
-
-.section-9{
-    background-color: #000;
-}
 
 
 
