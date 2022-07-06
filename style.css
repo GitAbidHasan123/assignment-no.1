@@ -1,95 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
-}
-.banner{
-    background-image: url(images/donation7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
-
-}
-h1{
-    text-align: center;
-    font-size: 35px;
-    font-weight: 900;
-    color: white;
-}
-p{
-    text-align: center;
-    font-size: 15px;
-    color: white;
     
 }
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.section-1{
+    background: #000 url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.color-overlay{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .6;
+    position: absolute;
+}
+.section-1 h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 50px;
+    z-index: 1;
+}
+.section-1 p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+#one{
+
+}
+#two{
+
+}
+.donate{
+    margin-left: 10px;
+}
+.donate h1{
+    font-size: 45px;
+font-weight: 700;
+color: black;
+text-align: center;
+margin-top: 40px;
+}
+.donate p{
+    font-size: 15px;
+    color: rgb(99, 92, 92);  
+    margin-top: 10px
+}
+.boxes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.box1{
+    margin-left: 10px;
+}
+
+
 .botton{
     text-decoration: none;
     padding: 10px 40px;
     background-color: #fc634c;
     color: black;
-    border-radius: 5px;
-}
-#one{
-    margin-left: 45%;
-}
-.botton a{
-    text-align: right;
-}
-#two{
+    border-radius: 5px;}
 
-}
-
-.donate h1{
-font-weight: 700;
-color: black;
-text-align: center;
-}
-.donate p{
-    color: rgb(31, 29, 29);
-    
-}
-.boxes{
-    display: inline-flex;
-    text-align: center;
-}
 .box1 h1{
     font-size: 20px;
     padding: 20px 10px;
     background-color: rgb(216, 221, 216);
     color: rgb(82, 76, 76);
 }
-.three{
-    margin-left: 45%;
+.other h6{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(51, 48, 48);
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.other a{
+    justify-content: center;
+}
+.amount{
     text-decoration: none;
     padding: 10px 40px;
     background-color: #fc634c;
     color: black;
-    border-radius: 5px; 
-}
-.other h6{
+    border-radius: 5px;
+   }
+   .button-div{
+    margin-top: 30px;
     text-align: center;
-    font-size: 10px;
-    color: rgb(51, 48, 48);
-    border-bottom: 1px solid rgb(184, 184, 184);
+   }
+.container1{
+    height: 100px;
+    width: 500px;
 }
 
-
-
-.Support-section{
+.Support1{
     display: flex;
 }
 .half-width{
-    margin-left: 100px;
     width: 50%;
+
 }
 .half-width h1{
     text-align: left;
     color: black;
     font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 15px;
 }
 .half-width p{
+    margin-top: 0px;
+    margin-bottom: 40px;
     text-align: left;
     color: rgb(34, 31, 31);
 }
 .img-cls{
-    padding: 100px;
+    background-repeat: no-repeat;
+    margin: 0;
 }
+.botton2{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #fc634c;
+    color: black;
+    border-radius: 5px;
+}
+
+.plan{
+
+}
+.plan h1{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-top: 100px;
+}
+.plan p{
+    font-size: 15px;
+    color: rgb(82, 75, 75);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-4{
+    display: block;
+    width: 100%;
+    
+    padding-top: 40px;
+    justify-content: center;
+}
+.section-5{
+    display: flex;
+    justify-content: space-between;
+}
+.food-family{
+    width: 33%;
+    margin: 1%;
+    padding: 2%;
+    
+}
+.food-familybg{
+    background: rgb(156, 238, 160);
+}
+.shalter-family{
+    background: rgb(241, 191, 204);
+}
+.section-5 h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.food-family h3{
+    font-weight: 700;
+}
+
+.img-cls{
+
+    width: 400px;
+    height: 400px;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.section-6{
+    padding: 100px 0;
+}
+
+
+
+
